@@ -1,9 +1,12 @@
 # Template Literals and Default Parameters Value
 * Declare a new function named ```favMovie``` that takes in one parameter.
 * Inside the function log a message to the console that tells the user what your favorite movie is. Note: Use template literals. Example:
-    function favMovie(movie) {
-         console.log(`my favorite movie is ${movie}`);
-    }
+
+```javascript 
+   function favMovie(movie) {
+    console.log(`my favorite movie is ${movie}`);
+}
+  ```
 * Call the function.
 * Open your developer tools and view what is printed in the console. You should see your message and parameter is undefined.
 Now pass in the argument, your favorite movie, when you call the function, update the parameter of the function to have a default value of “The Room”.
@@ -11,7 +14,8 @@ Now pass in the argument, your favorite movie, when you call the function, updat
 * Refresh your browser and you should now see your message and the parameter is defined.
 * Add another parameter to your function so you can pass it a name, give this parameter a default value of “world”.
 * Update the string so that you include your name in the message. Example:
-    console.log(`my name is ${name} and my favorite movie is ${movie}`);
+
+    ```javascript console.log(`my name is ${name} and my favorite movie is ${movie);```
 * Call function favMovie by passing it values for both a movie and a name, and also call it without passing it anything. Do the default values appear in the console?   
 # Arrow Functions
 * Change the ```favMovie``` function to an ES6 Arrow Function.
