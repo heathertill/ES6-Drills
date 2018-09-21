@@ -54,7 +54,6 @@ let sentence = 'Winter is coming'
 let spSentence = [...sentence]
 
 let words = (str) => {
-
     for (i = 0; i < str.length; i++ ) {
         console.log(str[i])
     }
